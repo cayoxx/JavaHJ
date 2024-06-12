@@ -1,0 +1,26 @@
+package elenco;
+
+import java.util.Scanner;
+
+public class Nilso2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	
+	int i = 1; int soma = 0; int valor = 0; 
+	Scanner ler = new Scanner(System.in);
+			
+	while (i <= 10) {
+	
+	System.out	.println("Insira o " + i + " ° valor:");
+	valor = ler.nextInt();
+	i++;
+	soma = soma + valor;
+	}
+	System.out.println("Valor: " + soma);
+	
+
+}
+	
+}
