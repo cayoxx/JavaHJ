@@ -1,0 +1,28 @@
+package elenco;
+
+import java.util.Scanner;
+
+public class Nilso4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	
+	int i = 1; int valor = 0; int maior = 0;
+	Scanner ler = new Scanner(System.in);
+			
+	while (i <= 20) {
+	
+	System.out	.println("Insira a " + i + " ° idade:");
+	valor = ler.nextInt();
+	i++;
+	if (valor>17) {
+		maior++;
+	}
+	}
+	System.out.println("Há " + maior + " pessoas maiores de idade.");
+	
+
+}
+	
+}
