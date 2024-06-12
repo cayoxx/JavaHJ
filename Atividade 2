@@ -1,0 +1,21 @@
+package elenco;
+import java.util.Scanner;
+public class Nilso1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	int i = 0; String nome;
+	Scanner ler = new Scanner(System.in);
+	
+	System.out.println("Insira seu nome:");
+	nome = ler.next();
+			
+	while (i <= 9) {
+	i++;
+
+	System.out.println(nome);
+	}
+
+}}
+	
