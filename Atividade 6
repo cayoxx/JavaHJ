@@ -1,0 +1,27 @@
+package elenco;
+
+import java.util.Scanner;
+
+public class Nilso3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	
+	int i = 1; int soma = 0; int valor = 0; 
+	Scanner ler = new Scanner(System.in);
+			
+	while (i <= 20) {
+	
+	System.out	.println("Insira a " + i + " ° idade:");
+	valor = ler.nextInt();
+	i++;
+	soma = soma + valor;
+	}
+	soma = soma/20;
+	System.out.println("Valor: " + soma);
+	
+
+}
+	
+}
