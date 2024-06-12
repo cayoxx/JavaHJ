@@ -1,0 +1,17 @@
+package elenco;
+
+public class Nilsao {
+
+	public static void main(String[] args) {
+
+
+        int soma=0;
+        int n = 0;
+
+        while (n <=14) {
+            n++;
+            soma=soma+n;
+        }
+        System.out.println("A soma dos números de 1 a 15 é: " + soma);
+    }
+}
