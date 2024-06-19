@@ -1,0 +1,28 @@
+  package elenco;
+
+import java.util.Scanner;
+
+public class Nilso5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	
+	int i = 1; int valor = 0; int qnt = 0;
+	Scanner ler = new Scanner(System.in);
+			
+	while (i <= 20) {
+	
+	System.out	.println("Insira o " + i + " ° valor:");
+	valor = ler.nextInt();
+	i++;
+	if (valor>8) {
+		qnt++;
+	}
+	}
+	System.out.println("Há " + qnt + " números maiores que 8.");
+	
+
+}
+	
+}
