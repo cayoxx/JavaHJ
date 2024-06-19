@@ -1,0 +1,36 @@
+package elenco;
+
+import java.util.Scanner;
+
+public class Nilso8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	
+	int i = 1; int valor = 0; int qntI = 0; int qntII = 0; int qntIII = 0;
+	Scanner ler = new Scanner(System.in);
+			
+	while (i <= 20) {
+	
+	System.out	.println("Insira o " + i + " ° valor:");
+	valor = ler.nextInt();
+	i++;
+	if (valor>=0&&valor<=100) {
+		qntI++;
+	}
+	if (valor>=101&&valor<=200) {
+		qntII++;
+	}
+	if (valor>200) {
+		qntIII++;
+	}
+	}
+	System.out.println("Há " + qntI + " numeros entre 0 e 100.");
+	System.out.println("Há " + qntII + " numeros entre 101 e 200.");
+	System.out.println("Há " + qntIII + " numeros maiores que 200.");
+	
+
+}
+	
+}
