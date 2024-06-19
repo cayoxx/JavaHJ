@@ -1,0 +1,27 @@
+package elenco;
+
+import java.util.Scanner;
+
+public class Nilso9 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	
+	int valor = 0; int soma = 0;
+	Scanner ler = new Scanner(System.in);
+			
+	while (valor >= 0) {
+	
+	System.out	.println("Insira o valor:");
+	valor = ler.nextInt();
+	if (valor >= 0) {
+	soma = soma+valor;
+	}
+
+}
+	System.out.println("A soma dos números é: " + soma + " (sem contar o negativo).");
+	
+	}}
+	
+
